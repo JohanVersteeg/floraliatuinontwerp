@@ -7,22 +7,17 @@ header {
 	background-position: center top;
 	.background-cover;
 	text-align: center;
-	color: white;	
-}
-
-@media(min-width:768px) {
-	header {
-		
-		img{
-			height:250px;
-			margin-left:-100px;
-		}
+	color: white;
+	
+	img{
+		width: 100%;
+	}	
+	
 	.intro-text {
 		position: relative;
-		margin-top: 200px;
-		margin-bottom: 200px;
-		font-family: "Maiandra GD";
-		height: 250px;		
+		margin-top: 60px;
+		margin-bottom: 20px;
+		font-family: "Maiandra GD";		
 	
 		.intro-lead-in {
 			position: absolute;
@@ -31,5 +26,13 @@ header {
 			position: absolute;
 		}
 	}
+}
+
+@media(min-width:768px) {
+	header {		
+		.intro-text {
+			margin-top: 200px;
+			margin-bottom: 200px;
+		}
 	}
 }
