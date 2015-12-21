@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Floralia-Tuinontwerp</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/agency.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script>
+        (function() {
+	angular.module("app",[]);
+	
+	angular.module("app")
+		.controller("SiteController", SiteController);
+	
+	function SiteController() {
+		this.coreValues = {
+            "title":"Kernwaarden",
+            "subTitle":"Bij het ontwerpen van uw tuin staan de volgende waarden centraal:",
+            "items":[
+                {
+                    "title":"Persoonlijk",
+                    "icon":"fa-user",
+                    "text":"Door ingesprek te gaan probeer ik een tuin te ontwerpen die goed aanslauit bij uw wensen."
+                },
+                {
+                    "title":"Bijzondere beplanting",
+                    "icon":"fa-tree",
+                    "text":"Door mijn groote plantenkennis kan ik u helpen bij het zoeken naar bijzondere planten die passen in uw beeld."
+                },
+                {
+                    "title":"Aanleg ervaring",
+                    "icon":"fa-map-signs",
+                    "text":"Door mijn ervaring als hovenier kan ik u of uw hovenier duidelijke aanwijzingen geven voor de aanleg van de tuin."
+                }
+            ]
+        };
+        
+        this.portfolio = {
+            "title": "Ontwerpen en foto's",
+            "subTitle":"Om een impressie te krijgen van mijn werk zijn hier wat ontwerken en foto's.",
+            "items":[
+                {
+                    "image":"http://floraliatuinontwerp.nl/Images/Ontwerpen/Culemborgse%20stadstuin/Fotogalerij/1%20-%20fotos/02.jpg",
+                    "title":"Culemborgse stadstuin",
+                    "subTitle":"Tuin tegen de stadsmuur"
+                },
+                {
+                    "image":"http://floraliatuinontwerp.nl/Images/Ontwerpen/Wonen%20op%20dijkhoogte/Fotogalerij/1%20-%20fotos/01.jpg",
+                    "title":"Wonen op dijkhoogte",
+                    "subTitle":"Landelijk wonen aan de dijk"
+                },
+                {
+                    "image":"http://floraliatuinontwerp.nl/Images/Ontwerpen/Water%20beleven/Voorbeelden/2%20-%20normal.jpg",
+                    "title":"Water beleven",
+                    "subTitle":"Wonen aan het water"
+                },
+                {
+                    "image":"http://floraliatuinontwerp.nl/Images/Ontwerpen/Relaxen%20in%20binnentuin/Fotogalerij/1%20-%20fotos/01.jpg",
+                    "title":"Relaxen binnentuin",
+                    "subTitle":"Ontspannen tuin met veel teras"
+                },
+                {
+                    "image":"http://floraliatuinontwerp.nl/Images/Ontwerpen/Knusse%20achtertuin/Fotogalerij/1%20-%20fotos/01.jpg",
+                    "title":"Knusse achtertuin",
+                    "subTitle":"Gezellig zitten achter het huis"
+                },
+                {
+                    "image":"http://floraliatuinontwerp.nl/Images/Ontwerpen/Landschap%20beleven/Voorbeelden/1%20-%20normal.jpg",
+                    "title":"Landschap beleven",
+                    "subTitle":"Genieten van het landschap"
+                }
+            ]
+        };
+        
+        this.method = {
+          "title":"Werkwijze",
+          "subTitle":"Mijn werkwijze tot een eigentijds tuinontwerp",
+          "items":[
+             {
+                 "image":"http://schouwassurantien.nl/wp-content/uploads/2014/09/DSC_4513.jpg",
+                 "title":"Oriënterend gesprek",
+                 "description":"Allereerst wordt in een oriënterend gesprek bij u thuis doorgenomen wat úw tuinwensen zijn en mijn mogelijkheden."
+             },
+             {
+                 "image":"http://www.opglandscape.nl/cmsje/upload/A099DeBoeg_schetsontwerp11122014copy.jpg",
+                 "title":"Schetsontwerp",
+                 "description":"Met uw wensen wordt er vervolgens een schetsontwerp gemaakt dat met u in een volgend contact besproken wordt."
+             },
+             {
+                 "image":"http://floraliatuinontwerp.nl/Images/Ontwerpen/Relaxen%20in%20binnentuin/Voorbeelden/1%20-%20normal.jpg",
+                 "title":"Ontwerptekening",
+                 "description":"Dit definitieve ontwerp wordt met enkele voorbeeldafbeeldingen van bijzondere elementen of materialen en een aantal sfeerfoto's van vooral de beplanting voor u beeldend gemaakt en aan u gepresenteerd. In een begeleidend schrijven worden de verschillende onderdelen."},
+             {
+                 "image":"http://floraliatuinontwerp.nl/Images/Ontwerpen/De%20georganiseerde%20ongeorganiseerde%20tuin/Voorbeelden/2%20-%20normal.jpg",
+                 "title":"Beplantignsplan",
+                 "description":"Hierbij wordt gekeken naar de juiste groeiomstandigheden van de beplanting zoals zon/schaduw, grondsoort en vochtigheid, en geschikte combinaties van planten. Uw al eerder aangegeven beplantingswensen worden hierin verwerkt."
+             },
+             {
+                 "image":"http://www.thunbergia.nl/includes/_Files/afbeeldingen/Tuinaanleg2.jpg",
+                 "title":"Aanleg",
+                 "description":"Met deze tekeningen kunt u de aanleg zelf doen, of het door een hovenier aan laten leggen. Om het plan vakkundig aan te laten leggen, kan ik u op uw verzoek verwijzen naar een geschikte hovenier. Dit traject kan ik zo nodig begeleiden."
+             },
+             {
+                 "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQacYh_wY4oytHRWHyd63k7DR8-tYGaImgXFIxYkrAuCTREeDdZKRRLQFJH",
+                 "title":"Plantenlevering",
+                 "description":"Indien gewenst kan ook de complete plantenlevering voor uw tuin voor u geregeld worden, inclusief de bijzondere soorten, in de juiste maten en kwaliteit. Alles zoveel mogelijk in één keer, vers van de kwekerij direct bij u thuis."
+             } 
+          ]  
+        };
+	}
+})();
+    </script>
+</head>
+
+<body id="page-top" class="index" ng-controller="SiteController as site">
+
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div class="navbar-brand-box" style="display: none">
+                    <img class="navbar-brand-image" src="http://floraliatuinontwerp.nl/Images/xlogo.png.pagespeed.ic.efly1H6s7T.png" />
+                    <div class="navbar-brand-text">
+                        <h1>Floralia-Tuinontwerp</h1>
+                        <h2>Ook voor bijzondere beplantingen</h2>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#services">{{site.coreValues.title}}</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#portfolio">Ontwerpen & foto's</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">Werkwijze</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#team">Wie ben ik</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <header id="header" ng-include="'templates/header.html'"></header>
+    <section id="services" ng-include="'templates/core-values.html'"></section>
+    <section id="portfolio" ng-include="'templates/portfolio.html'" class="bg-light-gray"></section>
+    <section id="about" ng-include="'templates/about.html'"></section>
+    <section id="team" ng-include="'templates/team.html'" class="bg-light-gray"></section>
+    <section id="contact" ng-include="'templates/contact.html'"></section>
+    <footer id="footer" ng-include="'templates/footer.html'"></footer>
+
+    <div id="portfolio-modals" ng-include="'templates/portfolio-modals.html'"></div>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script>
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+    <script src="js/agency.js"></script>
+
+</body>
+
+</html>

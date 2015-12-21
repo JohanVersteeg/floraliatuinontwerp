@@ -1,0 +1,117 @@
+// Custom Navigation Bar
+
+.navbar-default {
+	background-color: @brand-primary;
+	border-color: transparent;
+
+.navbar-brand-box{
+	color: white;
+	
+	.navbar-brand-text {
+    position: relative;
+    left: 144px;
+    top: 84px;
+		h1, h2{
+			text-transform: none;
+			font-weight: normal;
+			z-index: 5;
+			font-family: "Maiandra GD";
+			margin: 0;
+		}
+			
+		h1{
+	
+			margin-bottom: 5px;
+			font-size: 26pt;
+		}
+		
+		h2{
+
+			font-size: 14pt;
+			font-style: italic;
+		}
+	}
+	.navbar-brand-image {
+		position: absolute;
+    	height: 231px;
+    	top: 0;
+	}
+	
+}
+	.navbar-collapse {
+		border-color: fade(white, 2%);
+	}
+	.navbar-toggle {
+		background-color: @brand-primary;
+		border-color: @brand-primary;
+		.icon-bar {
+			background-color: white;
+		}
+		&:hover,
+		&:focus {
+			background-color: @brand-primary;
+		}
+	}
+    .nav {
+    	li {
+    		a {
+    			.heading-font;
+    			font-weight: 400;
+    			letter-spacing: 1px;
+    			color: white;
+    			&:hover,
+    			&:focus {    				
+    				outline: none;
+					background-color: lighten(@brand-primary,5%);
+					color: white;
+    			}
+    		}
+    	}
+    }
+	.navbar-nav>.active>a {
+		border-radius: 0;
+		color: white;
+		background-color: lighten(@brand-primary,10%);
+	}
+	.navbar-nav>.active>a:hover,
+	.navbar-nav>.active>a:focus {
+		color: white;
+		background-color: lighten(@brand-primary,10%);
+	}
+}
+
+@media(min-width:768px) {
+    .navbar-default {
+        border: none;
+				
+	    .navbar-brand {
+	        font-size: 2em;
+	        -webkit-transition: all 0.3s;
+	        -moz-transition: all 0.3s;
+	        transition: all 0.3s;
+	    }
+		.navbar-nav>.active>a {
+			border-radius: 3px;
+		}
+    }
+    .navbar-default.navbar-shrink {	
+    	background-color: @brand-primary;
+        padding: 10px 0;
+
+	.navbar-brand-box{		
+		.navbar-brand-text {
+			left: 160px;
+			top: 0px;
+		
+			.navbar-brand-image{
+				position: absolute;
+				height: 170px;
+				top: -15px;
+							-webkit-transition: all 0.3s;
+				-moz-transition: all 0.3s;
+				transition: all 0.3s;
+			}
+		}
+		}
+	}
+}
