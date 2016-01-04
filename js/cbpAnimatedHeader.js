@@ -12,8 +12,9 @@ var cbpAnimatedHeader = (function() {
 
 	var docElem = document.documentElement,
 		header = document.querySelector( '.navbar-default' ),
+        headerBrand = document.querySelector( '.navbar-brand' ),
 		didScroll = false,
-		changeHeaderOn = 300;
+		changeHeaderOn = 70;
 
 	function init() {
 		window.addEventListener( 'scroll', function( event ) {
@@ -28,9 +29,11 @@ var cbpAnimatedHeader = (function() {
 		var sy = scrollY();
 		if ( sy >= changeHeaderOn ) {
 			classie.add( header, 'navbar-shrink' );
+            classie.add( headerBrand, 'navbar-shrink' );
 		}
 		else {
 			classie.remove( header, 'navbar-shrink' );
+            classie.remove( headerBrand, 'navbar-shrink' );
 		}
 		didScroll = false;
 	}

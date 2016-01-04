@@ -26,6 +26,14 @@
 
 <body id="page-top" class="index" ng-controller="SiteController">
 
+    <div class="navbar navbar-brand navbar-fixed-top">
+        <div class="brand-info">
+            <img src="http://floraliatuinontwerp.nl/Images/logo.png" />
+            <h1>Floralia-Tuinontwerp</h1>
+            <h2>Ook voor bijzondere beplantingen</h2>
+        </div>
+    </div>
+
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -40,7 +48,7 @@
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
+                <ul class="nav navbar-nav">
                     <li class="hidden">
                         <a href="#page-top"></a>
                     </li>
@@ -53,13 +61,13 @@
     </nav>
 
     <header id="header" ng-controller="HeaderController" ng-include="'templates/header.html'"></header>
-    
+
     <section id="{{pages[0].id}}" ng-controller="QualitiesController" ng-include="pages[0].template"></section>
     <section id="{{pages[1].id}}" ng-controller="PortfolioController" ng-include="pages[1].template" class="bg-light-gray"></section>
     <section id="{{pages[2].id}}" ng-controller="MethodController" ng-include="pages[2].template"></section>
     <section id="{{pages[3].id}}" ng-controller="MeController" ng-include="pages[3].template" class="bg-light-gray"></section>
     <section id="{{pages[4].id}}" ng-controller="ContactController" ng-include="pages[4].template"></section>
-    
+
     <footer id="footer" ng-include="'templates/footer.html'"></footer>
 
     <div id="portfolio-modals" ng-include="'templates/portfolio-modals.html'"></div>
