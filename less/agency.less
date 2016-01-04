@@ -168,6 +168,8 @@ section {
         	background-color: white;
         	text-align: center;
         	padding: 25px;
+			position: relative;
+			
         	h4 {
         		text-transform: none;
         		margin: 0;
@@ -178,11 +180,29 @@ section {
         		font-size: 16px;
         		margin: 0;
         	}
+
+			.city{
+				position: absolute;
+				right: 0;
+				bottom: 0;
+				padding: 3px 4px;
+				font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+				font-size: 11px;
+				color: #B0B0B0;
+			}
         }
+		
+	
     }
     * {
         z-index: 2;
     }
+	
+	.show-more{
+		width: 100%;
+    	padding: 10px;
+		border-radius: 0;
+	}
 }
 
 @media(min-width:767px) {

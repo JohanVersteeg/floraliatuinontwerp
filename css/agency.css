@@ -473,6 +473,7 @@ section h3.section-subheading {
   background-color: white;
   text-align: center;
   padding: 25px;
+  position: relative;
 }
 #portfolio .portfolio-item .portfolio-caption h4 {
   text-transform: none;
@@ -484,8 +485,22 @@ section h3.section-subheading {
   font-size: 16px;
   margin: 0;
 }
+#portfolio .portfolio-item .portfolio-caption .city {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 3px 4px;
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 11px;
+  color: #B0B0B0;
+}
 #portfolio * {
   z-index: 2;
+}
+#portfolio .show-more {
+  width: 100%;
+  padding: 10px;
+  border-radius: 0;
 }
 @media (min-width: 767px) {
   #portfolio .portfolio-item {

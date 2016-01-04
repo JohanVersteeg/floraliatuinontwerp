@@ -6,7 +6,7 @@
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-md-4 col-sm-6 portfolio-item" ng-repeat="item in site.portfolio.items">
+		<div class="col-md-4 col-sm-6 portfolio-item" ng-repeat="item in site.portfolio.items" ng-show="$index < site.portfolio.visibleItems">
 			<a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
 				<div class="portfolio-hover">
 					<div class="portfolio-hover-content">
@@ -18,7 +18,17 @@
 			<div class="portfolio-caption">
 				<h4>{{item.title}}</h4>
 				<p class="text-muted">{{item.subTitle}}</p>
+				<span class="city">{{item.city}}</span>
 			</div>
+		</div>
+	</div>
+	<div class="row" ng-hide="site.portfolio.visibleItems >= site.portfolio.items.length">
+		<div class="col-md-4 col-sm-6">
+		</div>
+		<div class="col-md-4 col-sm-6">
+			<a class="btn btn-primary show-more" ng-click="site.portfolio.showMore()">
+			Toon meer
+			</a>
 		</div>
 	</div>
 </div>
