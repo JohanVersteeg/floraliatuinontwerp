@@ -1,0 +1,21 @@
+{
+	"title": "Kwaliteiten",
+	"subTitle": "Bij het ontwerpen van uw tuin staan de volgende kwaliteiten centraal:",
+	"items": [
+		{
+			"title": "Persoonlijk",
+			"icon": "fa-user",
+			"text": "Door ingesprek te gaan probeer ik een tuin te ontwerpen die goed aanslauit bij uw wensen."
+		},
+		{
+			"title": "Bijzondere beplanting",
+			"icon": "fa-tree",
+			"text": "Door mijn groote plantenkennis kan ik u helpen bij het zoeken naar bijzondere planten die passen in uw beeld."
+		},
+		{
+			"title": "Aanleg ervaring",
+			"icon": "fa-map-signs",
+			"text": "Door mijn ervaring als hovenier kan ik u of uw hovenier duidelijke aanwijzingen geven voor de aanleg van de tuin."
+		}
+	]
+}

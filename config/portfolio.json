@@ -1,0 +1,44 @@
+{
+	"title": "Ontwerpen en foto's",
+	"subTitle": "Om een impressie te krijgen van mijn werk zijn hier wat ontwerken en foto's.",
+	"visibleItems": 3,
+	"showMoreText": "Toon meer",
+	"items": [
+		{
+			"image": "http://floraliatuinontwerp.nl/Images/Ontwerpen/Culemborgse%20stadstuin/Fotogalerij/1%20-%20fotos/02.jpg",
+			"title": "Culemborgse stadstuin",
+			"subTitle": "Tuin tegen de stadsmuur",
+			"city": "Culemborg"
+		},
+		{
+			"image": "http://floraliatuinontwerp.nl/Images/Ontwerpen/Wonen%20op%20dijkhoogte/Fotogalerij/1%20-%20fotos/01.jpg",
+			"title": "Wonen op dijkhoogte",
+			"subTitle": "Landelijk wonen aan de dijk",
+			"city": "Meerkerk"
+		},
+		{
+			"image": "http://floraliatuinontwerp.nl/Images/Ontwerpen/Water%20beleven/Voorbeelden/2%20-%20normal.jpg",
+			"title": "Water beleven",
+			"subTitle": "Wonen aan het water",
+			"city": "Sneek"
+		},
+		{
+			"image": "http://floraliatuinontwerp.nl/Images/Ontwerpen/Relaxen%20in%20binnentuin/Fotogalerij/1%20-%20fotos/01.jpg",
+			"title": "Relaxen binnentuin",
+			"subTitle": "Ontspannen tuin met veel teras",
+			"city": "Meerkerk"
+		},
+		{
+			"image": "http://floraliatuinontwerp.nl/Images/Ontwerpen/Knusse%20achtertuin/Fotogalerij/1%20-%20fotos/01.jpg",
+			"title": "Knusse achtertuin",
+			"subTitle": "Gezellig zitten achter het huis",
+			"city": "Culemborg"
+		},
+		{
+			"image": "http://floraliatuinontwerp.nl/Images/Ontwerpen/Landschap%20beleven/Voorbeelden/1%20-%20normal.jpg",
+			"title": "Landschap beleven",
+			"subTitle": "Genieten van het landschap",
+			"city": "Culemborg"
+		}
+	]
+}
