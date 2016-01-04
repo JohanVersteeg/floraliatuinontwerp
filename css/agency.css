@@ -754,21 +754,28 @@ section#contact .text-danger {
   color: #e74c3c;
 }
 footer {
-  padding: 25px 0;
+  padding: 0;
   text-align: center;
-}
-footer span.copyright {
-  line-height: 40px;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   text-transform: none;
 }
-footer ul.quicklinks {
-  margin-bottom: 0;
+footer .contact-information {
+  padding: 10px 10px 20px 10px;
+}
+footer .contact-information .item {
+  display: inline-block;
+  margin: 10px 10px 0px 10px;
+}
+footer .contact-information .devider {
+  width: 10px;
+  display: inline-block;
+}
+footer .copyright {
   line-height: 40px;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
   text-transform: none;
+  color: white;
+  background-color: #667547;
 }
 ul.social-buttons {
   margin-bottom: 0;
