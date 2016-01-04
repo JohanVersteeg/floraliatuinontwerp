@@ -364,41 +364,38 @@ fieldset[disabled] .btn-xl.active {
     transition: all 0.3s;
   }
 }
-header {
-  background-image: url('http://floraliatuinontwerp.nl/Images/Ontwerpen/Wonen%20op%20dijkhoogte/Fotogalerij/1%20-%20fotos/01.jpg');
-  background-repeat: none;
-  background-attachment: scroll;
-  background-position: center top;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-  text-align: center;
-  color: white;
+#header-slideshow {
+  transition: opacity 0.5s linear 0.5s;
+  opacity: 0;
 }
-header img {
-  width: 100%;
+#header-slideshow img {
+  transition: opacity 0.5s linear;
+  outline: none;
+  height: 200px;
+  cursor: move;
+  width: auto;
+  padding: 0;
 }
-header .intro-text {
-  position: relative;
-  margin-top: 60px;
-  margin-bottom: 20px;
-  font-family: "Maiandra GD";
+#header-slideshow img.slick-slide {
+  opacity: 0.5;
 }
-header .intro-text .intro-lead-in {
-  position: absolute;
+#header-slideshow img.slick-current {
+  opacity: 1;
 }
-header .intro-text .intro-heading {
-  position: absolute;
-}
+/* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-  header .intro-text {
-    margin-top: 200px;
-    margin-bottom: 200px;
+  #header-slideshow img {
+    height: 400px;
+  }
+}
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  #header-slideshow img {
+    height: 500px;
   }
 }
 section {
-  padding: 100px 0;
+  padding: 50px 0;
 }
 section h2.section-heading {
   font-size: 40px;
@@ -411,11 +408,11 @@ section h3.section-subheading {
   text-transform: none;
   font-style: italic;
   font-weight: 400;
-  margin-bottom: 75px;
+  margin-bottom: 50px;
 }
 @media (min-width: 768px) {
   section {
-    padding: 150px 0;
+    padding: 75px 0;
   }
 }
 .service-heading {
@@ -501,6 +498,7 @@ section h3.section-subheading {
   width: 100%;
   padding: 10px;
   border-radius: 0;
+  max-width: 400px;
 }
 @media (min-width: 767px) {
   #portfolio .portfolio-item {

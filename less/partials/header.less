@@ -1,38 +1,38 @@
-// Header
-
-header {
-	background-image: url('http://floraliatuinontwerp.nl/Images/Ontwerpen/Wonen%20op%20dijkhoogte/Fotogalerij/1%20-%20fotos/01.jpg');
-	background-repeat: none;
-	background-attachment: scroll;
-	background-position: center top;
-	.background-cover;
-	text-align: center;
-	color: white;
+#header-slideshow{
+	transition:opacity 0.5s linear 0.5s;
 	
+	opacity: 0;
 	img{
-		width: 100%;
+		transition:opacity 0.5s linear;
+		outline: none;
+		    height: 200px;
+			cursor: move;
+    width: auto;
+		padding: 0;
+		
+		&.slick-slide{
+			opacity: 0.5;
+		} 
+		
+		&.slick-current
+		{
+			opacity: 1;
+		}
 	}	
-	
-	.intro-text {
-		position: relative;
-		margin-top: 60px;
-		margin-bottom: 20px;
-		font-family: "Maiandra GD";		
-	
-		.intro-lead-in {
-			position: absolute;
-		}
-		.intro-heading {
-			position: absolute;
-		}
-	}
 }
 
-@media(min-width:768px) {
-	header {		
-		.intro-text {
-			margin-top: 200px;
-			margin-bottom: 200px;
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) { 	#header-slideshow{
+		img{
+	height: 400px;
+		}
+	} }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) { 
+	#header-slideshow{
+		img{
+	height: 500px;
 		}
 	}
-}
+ }

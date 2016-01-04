@@ -30,6 +30,11 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    
+    
+<link rel="stylesheet" type="text/css" href="lib/slick/slick.css"/>
+<link rel="stylesheet" type="text/css" href="lib/slick/slick-theme.css"/>
+
     <script>
         (function() {
 	angular.module("app",[]);
@@ -37,7 +42,29 @@
 	angular.module("app")
 		.controller("SiteController", SiteController);
 	
+    angular.module("app").directive('slick', function() {
+    return {
+        restrict: 'A',
+        link: function(scope, element, attrs) {
+            $(element).slick(scope.$eval(attrs.slick));
+                        $(element).slick("slickGoTo", 0);
+            $(element).css("opacity",1);
+        }
+    };
+});
+    
 	function SiteController() {
+        this.header = {
+            slickSettings : {
+                infinite: true,
+                speed: 300,
+                slidesToShow: 1,
+                centerMode: true,
+                variableWidth: true, 
+                focusOnSelect: true,
+                dots: true
+            }
+        }
 		this.coreValues = {
             "title":"Kernwaarden",
             "subTitle":"Bij het ontwerpen van uw tuin staan de volgende waarden centraal:",
@@ -207,7 +234,7 @@
     <script src="js/jqBootstrapValidation.js"></script>
     <script src="js/contact_me.js"></script>
     <script src="js/agency.js"></script>
-
+    <script src="lib/slick/slick.min.js"></script>
 </body>
 
 </html>
