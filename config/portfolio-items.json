@@ -1,0 +1,185 @@
+[
+    {
+        "name": "Culemborgse stadstuin",
+        "subTitle": "Tegen de stadsmuur in binnenstad",
+        "location": "Culemborg",
+        "folder": "01-culemborgse-stadstuin",
+        "fotos": [
+            "img/designs/01-culemborgse-stadstuin/01.jpg",
+            "img/designs/01-culemborgse-stadstuin/02.jpg",
+            "img/designs/01-culemborgse-stadstuin/03.jpg",
+            "img/designs/01-culemborgse-stadstuin/04.jpg",
+            "img/designs/01-culemborgse-stadstuin/05.jpg",
+            "img/designs/01-culemborgse-stadstuin/06.jpg",
+            "img/designs/01-culemborgse-stadstuin/07.jpg",
+            "img/designs/01-culemborgse-stadstuin/08.jpg",
+            "img/designs/01-culemborgse-stadstuin/09.jpg",
+            "img/designs/01-culemborgse-stadstuin/10.jpg"
+        ]
+    },
+    {
+        "name": "Wonen op dijkhoogte",
+        "subTitle": "Zouwendijk te Meerkerk",
+        "location": "Meerkerk",
+        "folder": "02-wonen-op-dijkhoogte",
+        "fotos": [
+            "img/designs/02-wonen-op-dijkhoogte/01.jpg",
+            "img/designs/02-wonen-op-dijkhoogte/02.jpg",
+            "img/designs/02-wonen-op-dijkhoogte/03.jpg",
+            "img/designs/02-wonen-op-dijkhoogte/04.jpg",
+            "img/designs/02-wonen-op-dijkhoogte/05.jpg",
+            "img/designs/02-wonen-op-dijkhoogte/06.jpg",
+            "img/designs/02-wonen-op-dijkhoogte/07.jpg",
+            "img/designs/02-wonen-op-dijkhoogte/08.jpg",
+            "img/designs/02-wonen-op-dijkhoogte/09.jpg",
+            "img/designs/02-wonen-op-dijkhoogte/10.jpg",
+            "img/designs/02-wonen-op-dijkhoogte/11.jpg",
+            "img/designs/02-wonen-op-dijkhoogte/12.jpg"
+        ]
+    },
+    {
+        "name": "Water beleven",
+        "subTitle": "Plan 'de Oudvaart' Sneek",
+        "location": "Sneek",
+        "folder": "03-water-beleven",
+        "fotos": [
+            "img/designs/03-water-beleven/01.jpg",
+            "img/designs/03-water-beleven/02.jpg",
+            "img/designs/03-water-beleven/03.jpg",
+            "img/designs/03-water-beleven/04.jpg",
+            "img/designs/03-water-beleven/05.jpg",
+            "img/designs/03-water-beleven/06.jpg",
+            "img/designs/03-water-beleven/07.jpg",
+            "img/designs/03-water-beleven/08.jpg",
+            "img/designs/03-water-beleven/09.jpg",
+            "img/designs/03-water-beleven/10.jpg",
+            "img/designs/03-water-beleven/11.jpg",
+            "img/designs/03-water-beleven/12.jpg",
+            "img/designs/03-water-beleven/13.jpg",
+            "img/designs/03-water-beleven/14.jpg",
+            "img/designs/03-water-beleven/15.jpg",
+            "img/designs/03-water-beleven/16.jpg",
+            "img/designs/03-water-beleven/17.jpg",
+            "img/designs/03-water-beleven/18.jpg",
+            "img/designs/03-water-beleven/19.jpg"
+        ]
+    },
+    {
+        "name": "Weelderige Villatuin",
+        "subTitle": "Wijk 'Zeisterbosch' in Zeist",
+        "location": "Zeist",
+        "folder": "04-weelderige-villatuin",
+        "fotos": [
+            "img/designs/04-weelderige-villatuin/01.jpg",
+            "img/designs/04-weelderige-villatuin/02.jpg",
+            "img/designs/04-weelderige-villatuin/03.jpg",
+            "img/designs/04-weelderige-villatuin/04.jpg",
+            "img/designs/04-weelderige-villatuin/05.jpg",
+            "img/designs/04-weelderige-villatuin/06.jpg",
+            "img/designs/04-weelderige-villatuin/07.jpg",
+            "img/designs/04-weelderige-villatuin/08.jpg",
+            "img/designs/04-weelderige-villatuin/09.jpg",
+            "img/designs/04-weelderige-villatuin/10.jpg",
+            "img/designs/04-weelderige-villatuin/11.jpg",
+            "img/designs/04-weelderige-villatuin/12.jpg"
+        ]
+    },
+    {
+        "name": "Landschap beleven",
+        "subTitle": "In het buitengebied van Culemborg",
+        "location": "Culemborg",
+        "folder": "05-landschap-beleven",
+        "fotos": [
+            "img/designs/05-landschap-beleven/01.jpg",
+            "img/designs/05-landschap-beleven/02.jpg",
+            "img/designs/05-landschap-beleven/03.jpg",
+            "img/designs/05-landschap-beleven/04.jpg",
+            "img/designs/05-landschap-beleven/05.jpg",
+            "img/designs/05-landschap-beleven/06.jpg",
+            "img/designs/05-landschap-beleven/07.jpg",
+            "img/designs/05-landschap-beleven/08.jpg",
+            "img/designs/05-landschap-beleven/09.jpg"
+        ]
+    },
+    {
+        "name": "Wuivende binnentuin",
+        "subTitle": "Wijk 'Parijsch' in Culemborg",
+        "location": "Culemborg",
+        "folder": "06-wuivende-binnentuin",
+        "fotos": [
+            "img/designs/06-wuivende-binnentuin/01.jpg",
+            "img/designs/06-wuivende-binnentuin/02.jpg",
+            "img/designs/06-wuivende-binnentuin/03.jpg",
+            "img/designs/06-wuivende-binnentuin/04.jpg",
+            "img/designs/06-wuivende-binnentuin/05.jpg"
+        ]
+    },
+    {
+        "name": "Weelderige border om villa",
+        "subTitle": "Meerkerk",
+        "location": "Meerkerk",
+        "folder": "07-weelderige-border",
+        "fotos": [
+            "img/designs/07-weelderige-border/01.jpg",
+            "img/designs/07-weelderige-border/02.jpg",
+            "img/designs/07-weelderige-border/03.jpg",
+            "img/designs/07-weelderige-border/04.jpg",
+            "img/designs/07-weelderige-border/05.jpg",
+            "img/designs/07-weelderige-border/06.jpg"
+        ]
+    },
+    {
+        "name": "De georganiseerde tuin",
+        "subTitle": "Wijk 'Passewaay' Tiel",
+        "location": "Tiel",
+        "folder": "08-de-georganiseerde-tuin",
+        "fotos": [
+            "img/designs/08-de-georganiseerde-tuin/01.jpg",
+            "img/designs/08-de-georganiseerde-tuin/02.jpg"
+        ]
+    },
+    {
+        "name": "Relaxen in binnentuin",
+        "subTitle": "Meerkerk",
+        "location": "Meerkerk",
+        "folder": "09-relaxen-in-binnentuin",
+        "fotos": [
+            "img/designs/09-relaxen-in-binnentuin/01.jpg",
+            "img/designs/09-relaxen-in-binnentuin/02.jpg",
+            "img/designs/09-relaxen-in-binnentuin/03.jpg",
+            "img/designs/09-relaxen-in-binnentuin/04.jpg",
+            "img/designs/09-relaxen-in-binnentuin/05.jpg",
+            "img/designs/09-relaxen-in-binnentuin/06.jpg",
+            "img/designs/09-relaxen-in-binnentuin/07.jpg",
+            "img/designs/09-relaxen-in-binnentuin/08.jpg",
+            "img/designs/09-relaxen-in-binnentuin/09.jpg",
+            "img/designs/09-relaxen-in-binnentuin/10.jpg",
+            "img/designs/09-relaxen-in-binnentuin/11.jpg",
+            "img/designs/09-relaxen-in-binnentuin/12.jpg",
+            "img/designs/09-relaxen-in-binnentuin/13.jpg",
+            "img/designs/09-relaxen-in-binnentuin/14.jpg"
+        ]
+    },
+    {
+        "name": "Knusse achtertuin",
+        "subTitle": "In wijk Voorkoop te Culemborg ",
+        "location": "Culemborg",
+        "folder": "10-knusse-achtertuin",
+        "fotos": [
+            "img/designs/10-knusse-achtertuin/01.jpg",
+            "img/designs/10-knusse-achtertuin/02.jpg",
+            "img/designs/10-knusse-achtertuin/03.jpg",
+            "img/designs/10-knusse-achtertuin/04.jpg"
+        ]
+    },
+    {
+        "name": "Lounchen in waterrijke tuin",
+        "subTitle": "Alphen a.d. Rijn",
+        "location": "Alphen a.d. Rijn",
+        "folder": "11-lounchen-in-waterrijke-tuin",
+        "fotos": [
+            "img/designs/11-lounchen-in-waterrijke-tuin/01.jpg",
+            "img/designs/11-lounchen-in-waterrijke-tuin/02.jpg"
+        ]
+    }
+]
