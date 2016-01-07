@@ -382,8 +382,8 @@ fieldset[disabled] .btn-xl.active {
   transition: opacity 0.5s linear;
   outline: none;
   height: 200px;
+  width: 300px;
   cursor: move;
-  width: auto;
   padding: 0;
 }
 #header-slideshow img.slick-slide {
@@ -395,13 +395,15 @@ fieldset[disabled] .btn-xl.active {
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   #header-slideshow img {
-    height: 400px;
+    height: 445px;
+    width: 667px;
   }
 }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   #header-slideshow img {
     height: 500px;
+    width: 750px;
   }
 }
 section {
