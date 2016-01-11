@@ -7,7 +7,7 @@
 	</div>
 	<div class="row">
 		<div class="col-md-4 col-sm-6 portfolio-item" ng-repeat="item in items" ng-show="$index < visibleItems">
-			<a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+			<a class="portfolio-link" ng-click="openLightBox(item)">
 				<div class="portfolio-hover">
 					<div class="portfolio-hover-content">
 						<i class="fa fa-plus fa-3x"></i>
@@ -28,5 +28,5 @@
 			{{content.showMoreText}}
 			</a>
 		</div>
-	</div>
+	</div>   
 </div>
