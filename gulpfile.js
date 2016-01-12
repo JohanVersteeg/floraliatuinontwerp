@@ -4,7 +4,7 @@ var gulpLess = require("gulp-less");
 var foreach = require("gulp-foreach");
 
 gulp.task("build",function(){
-	return gulp.src(["less/agency.less","less/bootstrap.less"])
+	return gulp.src(["less/style.less","less/bootstrap.less"])
 		.pipe(gulpLess())
 		.pipe(gulp.dest("css"));
 });

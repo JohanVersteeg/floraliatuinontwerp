@@ -1,4 +1,3 @@
-@import "../css/bootstrap.min.css";
 @import "https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css";
 @import "https://fonts.googleapis.com/css?family=Montserrat:400,700";
 @import "https://fonts.googleapis.com/css?family=Kaushan+Script";
@@ -6,6 +5,9 @@
 @import "https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700";
 @import "../lib/slick/slick.css";
 @import "../lib/slick/slick-theme.css";
+@import "../lib/fancybox/source/jquery.fancybox.css";
+@import "../lib/fancybox/source/helpers/jquery.fancybox-buttons.css";
+@import "../lib/fancybox/source/helpers/jquery.fancybox-thumbs.css";
 .navbar-brand {
   background-color: #4a5534;
   height: 70px;
