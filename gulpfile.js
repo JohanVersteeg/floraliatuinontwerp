@@ -5,14 +5,22 @@ var foreach = require("gulp-foreach");
 
 gulp.task("build",function(){
 	return gulp.src(["less/style.less","less/bootstrap.less"])
-		.pipe(gulpLess())
+		.pipe(gulpLess({
+            paths: [
+                "/"
+            ]
+        }))
 		.pipe(gulp.dest("css"));
 });
 
 gulp.task('watch', function (cb) {
     watch('*.less', function () {
-	return gulp.src(["less/agency.less","less/bootstrap.less"])
-		.pipe(gulpLess())
+	return gulp.src(["less/style.less","less/bootstrap.less"])
+		.pipe(gulpLess({
+            paths: [
+                "/"
+            ]
+        }))
 		.pipe(gulp.dest("css"));
     });
 });
