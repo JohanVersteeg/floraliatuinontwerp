@@ -8242,6 +8242,24 @@ body {
   webkit-tap-highlight-color: #667547;
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+.alert-danger {
+  background-color: #a94442;
+  border-color: #a94442;
+  color: #EAD4D3;
+}
+#submitButton {
+  background-color: #4a5534;
+  border-color: #454f30;
+  opacity: 0.8;
+}
+#submitButton:active,
+#submitButton:hover,
+#submitButton:focus {
+  opacity: 1;
+}
+#submitButton:focus {
+  opacity: 0.9;
+}
 section {
   padding: 50px 0;
 }

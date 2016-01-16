@@ -30,8 +30,7 @@ function PortfolioController($scope, $http) {
                     width: 100,
                     height: 100
                 }
-            },
-            closeBtn: false
+            }
         });
     }
 };
