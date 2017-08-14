@@ -14,7 +14,7 @@ function HeaderController($scope,$http) {
 		dots: true
 	};
     
-    $http.get("config/header.json").then(function(response){
+    $http.get("data/header.json").then(function(response){
 		$scope.content = response.data;   
 	});
 };

@@ -4,7 +4,7 @@ angular.module("app")
 ContactController.$inject = ['$scope', '$http'];
 
 function ContactController($scope, $http) {
-    $http.get("config/contact.json").then(function (response) {
+    $http.get("data/contact.json").then(function (response) {
         $scope.content = response.data;
     });
 

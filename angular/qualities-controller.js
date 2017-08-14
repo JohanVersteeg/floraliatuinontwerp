@@ -4,7 +4,7 @@ angular.module("app")
 QualitiesController.$inject = ['$scope','$http'];
 
 function QualitiesController($scope,$http) {		
-	$http.get("config/qualities.json").then(function(response){
+	$http.get("data/qualities.json").then(function(response){
 		$scope.content = response.data;   
 	});
 };

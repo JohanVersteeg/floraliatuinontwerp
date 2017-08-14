@@ -4,7 +4,7 @@ angular.module("app")
 MeController.$inject = ['$scope','$http'];
 
 function MeController($scope,$http) {	
-	$http.get("config/me.json").then(function(response){
+	$http.get("data/me.json").then(function(response){
 		$scope.content = response.data;   
 	});
 };

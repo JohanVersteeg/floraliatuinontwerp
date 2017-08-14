@@ -31,7 +31,6 @@
 </head>
 
 <body id="page-top" class="index" ng-controller="SiteController">
-
     <div class="navbar navbar-brand navbar-fixed-top">
         <div class="brand-info">
             <img src="img/logo.png" />
@@ -68,17 +67,18 @@
 
     <header id="header" ng-controller="HeaderController" ng-include="'templates/header.html'"></header>
 
-    <section id="{{pages[0].id}}" ng-controller="QualitiesController" ng-include="pages[0].template"></section>
-    <section id="{{pages[1].id}}" ng-controller="PortfolioController" ng-include="pages[1].template" class="bg-light-gray"></section>
-    <section id="{{pages[2].id}}" ng-controller="MethodController" ng-include="pages[2].template"></section>
-    <section id="{{pages[3].id}}" ng-controller="MeController" ng-include="pages[3].template" class="bg-light-gray"></section>
+
+    <section id="{{pages[0].id}}" ng-controller="PortfolioController" ng-include="pages[0].template" class="bg-light-gray"></section>
+    <section id="{{pages[1].id}}" ng-controller="QualitiesController" ng-include="pages[1].template"></section>
+    <section id="{{pages[2].id}}" ng-controller="MeController" ng-include="pages[2].template" class="bg-light-gray"></section>
+    <section id="{{pages[3].id}}" ng-controller="MethodController" ng-include="pages[3].template"></section>
     <section id="{{pages[4].id}}" ng-controller="ContactController" ng-include="pages[4].template"></section>
 
     <footer id="footer" ng-include="'templates/footer.html'"></footer>
 
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
     <script src="js/classie.js"></script>
     <script src="js/cbpAnimatedHeader.js"></script>
     <script src="js/agency.js"></script>
