@@ -1,0 +1,185 @@
+[
+    {
+        "name": "Culemborgse stadstuin",
+        "subTitle": "Tegen de stadsmuur in binnenstad",
+        "location": "Culemborg",
+        "folder": "01-culemborgse-stadstuin",
+        "fotos": [
+            "01.jpg",
+            "02.jpg",
+            "03.jpg",
+            "04.jpg",
+            "05.jpg",
+            "06.jpg",
+            "07.jpg",
+            "08.jpg",
+            "09.jpg",
+            "10.jpg"
+        ]
+    },
+    {
+        "name": "Wonen op dijkhoogte",
+        "subTitle": "Zouwendijk te Meerkerk",
+        "location": "Meerkerk",
+        "folder": "02-wonen-op-dijkhoogte",
+        "fotos": [
+            "01.jpg",
+            "02.jpg",
+            "03.jpg",
+            "04.jpg",
+            "05.jpg",
+            "06.jpg",
+            "07.jpg",
+            "08.jpg",
+            "09.jpg",
+            "10.jpg",
+            "11.jpg",
+            "12.jpg"
+        ]
+    },
+    {
+        "name": "Water beleven",
+        "subTitle": "Plan 'de Oudvaart' Sneek",
+        "location": "Sneek",
+        "folder": "03-water-beleven",
+        "fotos": [
+            "01.jpg",
+            "02.jpg",
+            "03.jpg",
+            "04.jpg",
+            "05.jpg",
+            "06.jpg",
+            "07.jpg",
+            "08.jpg",
+            "09.jpg",
+            "10.jpg",
+            "11.jpg",
+            "12.jpg",
+            "13.jpg",
+            "14.jpg",
+            "15.jpg",
+            "16.jpg",
+            "17.jpg",
+            "18.jpg",
+            "19.jpg"
+        ]
+    },
+    {
+        "name": "Weelderige Villatuin",
+        "subTitle": "Wijk 'Zeisterbosch' in Zeist",
+        "location": "Zeist",
+        "folder": "04-weelderige-villatuin",
+        "fotos": [
+            "01.jpg",
+            "02.jpg",
+            "03.jpg",
+            "04.jpg",
+            "05.jpg",
+            "06.jpg",
+            "07.jpg",
+            "08.jpg",
+            "09.jpg",
+            "10.jpg",
+            "11.jpg",
+            "12.jpg"
+        ]
+    },
+    {
+        "name": "Landschap beleven",
+        "subTitle": "In het buitengebied van Culemborg",
+        "location": "Culemborg",
+        "folder": "05-landschap-beleven",
+        "fotos": [
+            "01.jpg",
+            "02.jpg",
+            "03.jpg",
+            "04.jpg",
+            "05.jpg",
+            "06.jpg",
+            "07.jpg",
+            "08.jpg",
+            "09.jpg"
+        ]
+    },
+    {
+        "name": "Wuivende binnentuin",
+        "subTitle": "Wijk 'Parijsch' in Culemborg",
+        "location": "Culemborg",
+        "folder": "06-wuivende-binnentuin",
+        "fotos": [
+            "01.jpg",
+            "02.jpg",
+            "03.jpg",
+            "04.jpg",
+            "05.jpg"
+        ]
+    },
+    {
+        "name": "Weelderige border om landelijke villa",
+        "subTitle": "Meerkerk",
+        "location": "Meerkerk",
+        "folder": "07-weelderige-border-om-landelijke-villa",
+        "fotos": [
+            "01.jpg",
+            "02.jpg",
+            "03.jpg",
+            "04.jpg",
+            "05.jpg",
+            "06.jpg"
+        ]
+    },
+    {
+        "name": "De georganiseerde, ongeorganiseerde tuin",
+        "subTitle": "Wijk 'Passewaay' Tiel",
+        "location": "Tiel",
+        "folder": "08-de-georganiseerde-ongeorganiseerde-tuin",
+        "fotos": [
+            "01.jpg",
+            "02.jpg"
+        ]
+    },
+    {
+        "name": "Relaxen in binnentuin",
+        "subTitle": "Meerkerk",
+        "location": "Meerkerk",
+        "folder": "09-relaxen-in-binnentuin",
+        "fotos": [
+            "01.jpg",
+            "02.jpg",
+            "03.jpg",
+            "04.jpg",
+            "05.jpg",
+            "06.jpg",
+            "07.jpg",
+            "08.jpg",
+            "09.jpg",
+            "10.jpg",
+            "11.jpg",
+            "12.jpg",
+            "13.jpg",
+            "14.jpg"
+        ]
+    },
+    {
+        "name": "Knusse achtertuin",
+        "subTitle": "In wijk Voorkoop te Culemborg ",
+        "location": "Culemborg",
+        "folder": "10-knusse-achtertuin",
+        "fotos": [
+            "01.jpg",
+            "02.jpg",
+            "03.jpg",
+            "04.jpg"
+        ]
+    },
+    {
+        "name": "Lounchen in waterrijke tuin",
+        "subTitle": "Alphen a.d. Rijn",
+        "location": "Alphen a.d. Rijn",
+        "folder": "11-lounchen-in-waterrijke-tuin",
+        "fotos": [
+            "01.jpg",
+            "02.jpg"
+        ]
+    }
+]

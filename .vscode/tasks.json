@@ -17,7 +17,18 @@
                 "$jshint"
             ]
         },
-                {
+        {
+            "taskName": "create-design-index",
+            "args": [],
+            "isBuildCommand": false,
+            "isWatching": false,
+            "problemMatcher": [
+                "$lessCompile",
+                "$tsc",
+                "$jshint"
+            ]
+        },
+        {
             "taskName": "watch",
             "args": [],
             "isBuildCommand": false,

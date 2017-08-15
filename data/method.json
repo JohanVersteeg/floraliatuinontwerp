@@ -1,0 +1,42 @@
+{
+	"title": "Werkwijze",
+	"subTitle": "Mijn werkwijze tot een eigentijds tuinontwerp",
+	"finishedText": "Genieten!",
+	"items": [
+		{
+			"image": "img/werkwijze/gesprek.png",
+			"title": "Oriënterend gesprek",
+			"description": "Allereerst wordt in een oriënterend gesprek bij u thuis doorgenomen wat úw tuinwensen zijn en mijn mogelijkheden."
+		},
+		{
+			"image": "img/werkwijze/schetsontwerp.png",
+			"title": "Schetsontwerp",
+			"description": "Met uw wensen wordt er vervolgens een schetsontwerp gemaakt dat met u in een volgend contact besproken wordt."
+		},
+		{
+			"image": "/img/werkwijze/ontwerptekening.png",
+			"title": "Ontwerptekening",
+			"description": "Dit definitieve ontwerp wordt met enkele voorbeeldafbeeldingen van bijzondere elementen of materialen en een aantal sfeerfoto's van vooral de beplanting voor u beeldend gemaakt en aan u gepresenteerd. In een begeleidend schrijven worden de verschillende onderdelen beschreven."
+		},
+		{
+			"image": "/img/werkwijze/beplantingsplan.png",
+			"title": "Beplantingsplan",
+			"description": "Hierbij wordt gekeken naar de juiste groeiomstandigheden van de beplanting zoals zon/schaduw, grondsoort en vochtigheid, en geschikte combinaties van planten. Uw al eerder aangegeven beplantingswensen worden hierin verwerkt."
+		},
+		{
+			"image": "/img/werkwijze/tuinaanleg.png",
+			"title": "Aanleg",
+			"description": "Met deze tekeningen kunt u de aanleg zelf doen, of het door een hovenier aan laten leggen. Om het plan vakkundig aan te laten leggen, kan ik u op uw verzoek verwijzen naar een geschikte hovenier. Dit traject kan ik zo nodig begeleiden."
+		},
+		{
+			"image": "/img/werkwijze/plantenlevering.png",
+			"title": "Plantenlevering",
+			"description": "Indien gewenst kan ook de complete plantenlevering voor uw tuin voor u geregeld worden, inclusief de bijzondere soorten, in de juiste maten en kwaliteit. Alles zoveel mogelijk in één keer, vers van de kwekerij direct bij u thuis."
+		},
+		{
+			"image": "/img/werkwijze/snoeiwerk.png",
+			"title": "Snoeiwerk en klein tuinonderhoud",
+			"description": "Ook hiervoor kunt u bij mij terecht, binnen de regio Culemborg. Hierin heb ik ruim ervaring."
+		}
+	]
+}
