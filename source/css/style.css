@@ -7831,6 +7831,7 @@ button.close {
 .team-member img {
   margin: 0 auto;
   border: 7px solid white;
+  max-width: 360px;
 }
 .team-member h4 {
   margin-top: 25px;
@@ -7841,61 +7842,64 @@ button.close {
   margin-top: 0;
 }
 section#contact {
+  padding: 0;
+}
+.contact-box {
+  padding: 50px 0;
   background-color: #667547;
-  background-image: url('../img/map-image.png');
   background-position: center;
   background-repeat: no-repeat;
 }
-section#contact .section-heading {
+.contact-box .section-heading {
   color: white;
 }
-section#contact .section-subheading {
+.contact-box .section-subheading {
   color: #E7E7E7;
 }
-section#contact .form-group {
+.contact-box .form-group {
   margin-bottom: 25px;
 }
-section#contact .form-group input,
-section#contact .form-group textarea {
+.contact-box .form-group input,
+.contact-box .form-group textarea {
   padding: 20px;
 }
-section#contact .form-group input.form-control {
+.contact-box .form-group input.form-control {
   height: auto;
 }
-section#contact .form-group textarea.form-control {
+.contact-box .form-group textarea.form-control {
   height: 236px;
 }
-section#contact .form-control:focus {
+.contact-box .form-control:focus {
   border-color: #667547;
   box-shadow: none;
 }
-section#contact ::-webkit-input-placeholder {
+.contact-box ::-webkit-input-placeholder {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   color: #bbbbbb;
 }
-section#contact :-moz-placeholder {
+.contact-box :-moz-placeholder {
   /* Firefox 18- */
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   color: #bbbbbb;
 }
-section#contact ::-moz-placeholder {
+.contact-box ::-moz-placeholder {
   /* Firefox 19+ */
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   color: #bbbbbb;
 }
-section#contact :-ms-input-placeholder {
+.contact-box :-ms-input-placeholder {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   color: #bbbbbb;
 }
-section#contact .text-danger {
+.contact-box .text-danger {
   color: #e74c3c;
 }
 footer {
