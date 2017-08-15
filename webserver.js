@@ -4,7 +4,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', function (req, res) {
-    var indexFile = fs.readFileSync("source/index.html");
+    var indexFile = fs.readFileSync("source/main-page.html");
     var partialsFile = fs.readFileSync("source/partials/partials.json");
     var partials = JSON.parse(partialsFile);
     var renderedIndex = Mustache.render(indexFile.toString(), partials);
@@ -17,6 +17,8 @@ app.get('/', function (req, res) {
         renderedIndex = renderedIndex.replace("<!--render-template=" + partial.id + "-->", compiledView);
     }
     res.send(renderedIndex);
+
+    fs.writeFileSync("source/index.html", renderedIndex);
 });
 
 app.use('/', express.static('source'))
