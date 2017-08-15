@@ -1,0 +1,9 @@
+{
+    "name": "Floralia Tuinontwerp",
+    "short_name": "Floralia Tuinontwerp",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#fff",
+    "description": "Website van Floralia-Tuinontwerp.",
+    "theme_color": "#4a5534"
+}
