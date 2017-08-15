@@ -1,0 +1,39 @@
+{
+    "partials": [
+        {
+            "id": "header",
+            "tag": "header"
+        },
+        {
+            "id": "portfolio",
+            "tag": "section",
+            "title": "Ontwerpen & foto's",
+            "class": "bg-light-gray"
+        },
+        {
+            "id": "qualities",
+            "tag": "section",
+            "title": "Kwaliteiten"
+        },
+        {
+            "id": "team",
+            "tag": "section",
+            "title": "Wie ben ik",
+            "class": "bg-light-gray"
+        },
+        {
+            "id": "about",
+            "tag": "section",
+            "title": "Werkwijze"
+        },
+        {
+            "id": "contact",
+            "tag": "section",
+            "title": "Contact"
+        },
+        {
+            "id": "footer",
+            "tag": "footer"
+        }
+    ]
+}

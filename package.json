@@ -1,6 +1,9 @@
 {
   "dependencies": {
+    "express": "^4.15.4",
     "gulp": "^3.9.0",
-    "gulp-less": "^3.0.5"
+    "gulp-foreach": "^0.1.0",
+    "gulp-less": "^3.0.5",
+    "gulp-watch": "^4.3.11"
   }
 }

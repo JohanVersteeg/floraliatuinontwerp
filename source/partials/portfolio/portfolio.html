@@ -1,0 +1,34 @@
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12 text-center">
+            <h2 class="section-heading">{{title}}</h2>
+            <h3 class="section-subheading text-muted">{{subTitle}}</h3>
+        </div>
+    </div>
+    <div class="row">
+        {{#items}}
+        <div class="col-md-4 col-sm-6 portfolio-item" ng-show="$index < visibleItems">
+            <a class="portfolio-link" ng-click="openLightBox(item)">
+                <div class="portfolio-hover">
+                    <div class="portfolio-hover-content">
+                        <i class="fa fa-plus fa-3x"></i>
+                    </div>
+                </div>
+                <div class="portfolio-image" style="background-image: url('{{fotos.0}}')"></div>
+            </a>
+            <div class="portfolio-caption">
+                <h4>{{name}}</h4>
+                <p class="text-muted">{{subTitle}}</p>
+                <span class="city">{{location}}</span>
+            </div>
+        </div>
+        {{/items}}
+    </div>
+    <div class="row text-center" ng-hide="visibleItems >= items.length">
+        <div class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3 text-center">
+            <a class="btn btn-primary show-more" ng-click="showMore()">
+			{{showMoreText}}
+			</a>
+        </div>
+    </div>
+</div>
