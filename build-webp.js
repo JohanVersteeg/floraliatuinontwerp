@@ -33,14 +33,8 @@ walk("source/img", function (err, results) {
         var outputFolder = results[i].replace("source/img", "source/img-webp");
         imagemin([folder + "/*.{jpg,png}"], outputFolder, {
             plugins: [webp({
-                //lossless: true // Losslessly encode images
+                method: 6
             })]
         });
-
-        /*imagemin([folder + "/*.jpg"], outputFolder, {
-            plugins: [webp({
-                quality: 100 // Quality setting from 0 to 100
-            })]
-        });*/
     }
 });
