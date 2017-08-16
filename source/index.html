@@ -86,8 +86,8 @@
     </nav>
 
     <header id="header" class="">
-        <div id="header-slideshow" slick="">
-    <img src='/img/header/1.png' alt='slideshow image' />     <img src='/img/header/2.png' alt='slideshow image' />     <img src='/img/header/3.png' alt='slideshow image' />     <img src='/img/header/4.png' alt='slideshow image' /> 
+        <div id="header-slideshow">
+    <img data-src='/img/header/1.png' alt='slideshow image' />     <img data-src='/img/header/2.png' alt='slideshow image' />     <img data-src='/img/header/3.png' alt='slideshow image' />     <img data-src='/img/header/4.png' alt='slideshow image' /> 
 </div>
     </header>
     <section id="portfolio" class="bg-light-gray">
@@ -514,11 +514,11 @@
                             <button type="submit" id="submitButton" class="btn btn-default btn-xl" ng-click="send()">Verzenden</button>
                         </div>
                         <div class="clearfix"></div>
-                        <div class="col-lg-12" style="margin-top: 30px;" ng-if="message">
+                        <!--<div class="col-lg-12" style="margin-top: 30px;" ng-if="message">
                             <div class="alert alert-" role="alert">
                                 <b ng-if="messageType == 'danger'">Let op.</b> 
                             </div>
-                        </div>
+                        </div>-->
                     </div>
                 </form>
             </div>
