@@ -1,25 +1,25 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="app">
+<html lang="nl">
 
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="theme-color" content="#4a5534"></meta>
+    <meta name="theme-color" content="#4a5534">
 
-    <meta name="description" content="voor een eigentijds tuinontwerp met bijzondere beplantingen."></meta>
-    <meta name="keywords" content="tuinontwerp, Culemborg, Zoelmond, Beusichem, Leerdam, Tricht, Zijderveld, Geldermalsen, Everdingen, Schoonrewoerd, Betuwe, tuinaanleg, branchevereniging BRAVVO, BRAVVO, bijzondere beplantingen, eigentijds tuinontwerp, beplantingsplan, voorbeeld ontwerpen, doorzicht, aanzicht, groeiomstandigheden, aanleg zelf doen, tuinontwerp, tuinontwerpen, tuin ontwerp, tuin ontwerpen, tuin vormgeven, tuinen vormgeven, tuinontwerper, Bert Versteeg, Bert (G) Versteeg, B. Versteeg, G. Versteeg, B Versteeg, G Versteeg, Floralia-Tuinontwerp, Floralia Tuinontwerp, Floralia, ontwerptekening, plantenlevering"></meta>
-    <meta name="robot" content="index,follow"></meta>
-    <meta name="copyright" content="Copyright © 2016 Floralia-Tuinontwerp. Alle Rechten Voorbehouden."></meta>
-    <meta name="author" content="Bert (G) Versteeg"></meta>
-    <meta name="language" content="Nederlands"></meta>
-    <meta name="short_name" content="Floralia Tuinontwerp"></meta>
+    <meta name="description" content="voor een eigentijds tuinontwerp met bijzondere beplantingen.">
+    <meta name="keywords" content="tuinontwerp, Culemborg, Zoelmond, Beusichem, Leerdam, Tricht, Zijderveld, Geldermalsen, Everdingen, Schoonrewoerd, Betuwe, tuinaanleg, branchevereniging BRAVVO, BRAVVO, bijzondere beplantingen, eigentijds tuinontwerp, beplantingsplan, voorbeeld ontwerpen, doorzicht, aanzicht, groeiomstandigheden, aanleg zelf doen, tuinontwerp, tuinontwerpen, tuin ontwerp, tuin ontwerpen, tuin vormgeven, tuinen vormgeven, tuinontwerper, Bert Versteeg, Bert (G) Versteeg, B. Versteeg, G. Versteeg, B Versteeg, G Versteeg, Floralia-Tuinontwerp, Floralia Tuinontwerp, Floralia, ontwerptekening, plantenlevering">
+    <meta name="robot" content="index,follow">
+    <meta name="copyright" content="Copyright © 2016 Floralia-Tuinontwerp. Alle Rechten Voorbehouden.">
+    <meta name="author" content="Bert (G) Versteeg">
+    <meta name="language" content="Nederlands">
+    <meta name="short_name" content="Floralia Tuinontwerp">
 
     <title>Floralia-Tuinontwerp</title>
 
     <link rel="manifest" href="/manifest.json">
     <link href="css/style.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="https:////cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css" />
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
@@ -81,7 +81,7 @@
     </{{tag}}>
     {{/partials}}
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js" integrity="sha256-rD86dXv7/J2SvI9ebmNi5dSuQdvzzrrN2puPca/ILls="
         crossorigin="anonymous"></script>
@@ -103,8 +103,8 @@
 
     <script>
         $(function () {
-            var element = $("#header-slideshow");
 
+            var element = $("#header-slideshow");
             $(element).slick({
                 infinite: true, speed: 300, slidesToShow: 1, centerMode: true, variableWidth: true, focusOnSelect: true, dots: true, arrows: false
             });
@@ -112,8 +112,27 @@
             $(element).css("opacity", 1);
 
             $("img, .lazy-load").unveil();
+
         });
     </script>
+
+
+    <script>
+        WebFontConfig = {
+            google: {
+                families: ['Montserrat:400,700', 'Kaushan+Script', 'Droid+Serif:400,700,400italic,700italic', 'Roboto+Slab:400,100,300,700']
+            }
+        };
+        (function () {
+            var wf = document.createElement('script');
+            wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js';
+            wf.type = 'text/javascript';
+            wf.async = 'true';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(wf, s);
+        })();
+    </script>
+
 </body>
 
 </html>
