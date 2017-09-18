@@ -31,5 +31,34 @@ $(function () {
     $('.navbar-collapse ul li a').click(function () {
         $('.navbar-toggle:visible').click();
     });
+
+
+    $("[photobox-fotos]").click(function () {
+        var fotosAttr = $(this).attr("photobox-fotos");
+        var fotos = fotosAttr.split(",");
+        var list = [];
+        for (var i = 0; i < fotos.length; i++) {
+            list.push({
+                src: fotos[i]
+            });
+        }
+
+        $.fancybox.open(list, {
+            loop: true,
+            hash: "test"
+        });
+    });
+
+    var currentlyVisible = 6;
+    $(".show-more").click(function () {
+        currentlyVisible = currentlyVisible + 3;
+        for (var i = 0; i < currentlyVisible; i++) {
+            $(".item-" + i).removeClass("not-visible-yet");
+            $(window).trigger("lookup");
+        }
+        if (currentlyVisible == 12) {
+            $(this).remove();
+        }
+    });
 });
 
