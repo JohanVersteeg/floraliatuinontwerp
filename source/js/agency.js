@@ -6,6 +6,12 @@
 
 // jQuery for page scrolling feature - requires jQuery Easing plugin
 $(function () {
+
+    var webp = false;
+
+    Modernizr.on('webp', function (result) {
+        webp = true;
+    });
     var element = $("#header-slideshow");
     $(element).slick({
         infinite: true, speed: 300, slidesToShow: 1, centerMode: true, variableWidth: true, focusOnSelect: true, dots: true, arrows: false
@@ -38,8 +44,12 @@ $(function () {
         var fotos = fotosAttr.split(",");
         var list = [];
         for (var i = 0; i < fotos.length; i++) {
+            var url = fotos[i];
+            if (webp) {
+                url = url.replace("img/", "img-webp/").replace("jpg", "webp").replace("jpeg", "webp").replace("png", "webp");
+            }
             list.push({
-                src: fotos[i]
+                src: url
             });
         }
 
