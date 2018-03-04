@@ -1,0 +1,42 @@
+#header-slideshow {
+    top:50px;
+	//transition:opacity 0.5s linear 0.5s;	
+	opacity: 0;
+	img {
+		///transition:opacity 0.5s linear;
+		outline: none;
+        height: 200px;
+        width: 300px;
+        cursor: move;
+		padding: 0;
+		
+		&.slick-slide {
+			opacity: 0.5;
+		} 
+		
+		&.slick-current
+		{
+			opacity: 1;
+		}
+	}	
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) { 	
+    #header-slideshow {
+		img {
+            height: 445px;
+            width: 667px;
+		}
+	} 
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) { 
+	#header-slideshow{
+		img{
+            height: 500px;
+            width: 750px;
+		}
+	}
+ }
